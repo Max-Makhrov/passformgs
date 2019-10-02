@@ -124,7 +124,7 @@ Get password:
 
 
 ## Advanced
-Use options. Samle options:
+Use options. Samlpe options:
 
       options = 
         { buttons: Browser.Buttons.OK_CANCEL, 
@@ -146,4 +146,4 @@ Use options. Samle options:
            message: 'Wrong format. Please try again...'}, 
         }
     
-       
+      
