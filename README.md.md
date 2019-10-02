@@ -9,6 +9,11 @@ Project key:
 ## Use
 ### One password per user
 
+Copy this code for tests:
+
+
+
+
 
 ### More than one password per user
 
@@ -58,5 +63,5 @@ Use options. Samle options:
         
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2MzU3MTI5NV19
+eyJoaXN0b3J5IjpbLTE0MTcwOTE5ODcsMTQ2MzU3MTI5NV19
 -->
