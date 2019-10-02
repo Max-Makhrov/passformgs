@@ -108,9 +108,8 @@ Save or change password:
     // set key
     function setPasswordWithKey()
     { 
-      PassForm.setPassword({value: 'Mike:Carleone', key: 'Godfather'}); 
       // change pass within the script (silent, unsafe)
-      var pass = PassForm.getPassword({key: 'Godfather'}, false);
+      PassForm.setPassword({value: 'Mike:Carleone', key: 'Godfather'}); 
       // change pass with prompt, safe.
       var pass = PassForm.changePassword();
     }
