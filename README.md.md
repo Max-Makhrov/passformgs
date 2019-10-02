@@ -7,7 +7,29 @@ Project key:
 `Mn_TkqLP19vqytbDY5sihkfUeoPss5KEk`
 
 ## Use
+
 ### One password per user
+
+Use from `onOpen` menu. Sample menu code:
+
+    function onOpen()
+    {
+      createMenu_();
+    }
+    
+    function createMenu_()
+    {
+      var ui = SpreadsheetApp.getUi();
+      ui 
+      .createMenu('Libs')
+      .addSubMenu(ui.createMenu('PassForm')
+                  .addItem('Use password',    'connectToAppWithPassNoKey')
+                  .addItem('Change password', 'changePassWordNoKey')
+                  .addItem('Show password',   'showPassNoKey') 
+                  .addItem('Delete password', 'deletePassNoKey') 
+                 ) 
+      .addToUi()
+    }
 
 Copy this code for tests:
 
@@ -120,6 +142,8 @@ Use options. Samle options:
     
         
 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODIyMDIyOTgsMTQ2MzU3MTI5NV19
+eyJoaXN0b3J5IjpbMTE4Nzc1Njg0NSwxNDYzNTcxMjk1XX0=
 -->
