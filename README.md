@@ -48,7 +48,7 @@ Copy this code for tests:
       }
       else if (pass === -2)
       {
-       // 'wrong forma'
+       // 'wrong format'
         return -2;
       }
       // success
