@@ -14,14 +14,19 @@ Project key:
 
 For multiple passwords in single project.
 
-Save or ch
+Save or change password:
 
     // set key
     function setPasswordWithKey()
     {
       var nopass = PassForm.getPassword({key: 'Godfather'}, false);
-      Logger.log(nopass);  // null
-      PassForm.setPassword({value: 'Mike:Carleone', key: 'Godfather'});  
+      PassForm.setPassword({value: 'Mike:Carleone', key: 'Godfather'});   
+    }
+
+Get password:
+
+    function getPasswordWithKey()
+    {  
       var pass = PassForm.getPassword({key: 'Godfather'}, false);  
       Logger.log(pass); // Mike:Carleone  
     }
@@ -53,5 +58,5 @@ Use options. Samle options:
         
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5MzE1NDg3OF19
+eyJoaXN0b3J5IjpbMTQ2MzU3MTI5NV19
 -->
