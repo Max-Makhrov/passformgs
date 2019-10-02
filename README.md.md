@@ -9,7 +9,9 @@ Project key:
 ## Use
 
 The code saves password in user properties. Only user has an access.
-The code shows `Browser.msgBox` and mos
+The code shows `Browser.msgBox` and mostry used for developing user interfaces.
+
+
 
 ### One password per user
 
@@ -148,5 +150,5 @@ Use options. Samle options:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTMzMTU0NywxNDYzNTcxMjk1XX0=
+eyJoaXN0b3J5IjpbNzI1NjQ0NjU0LDE0NjM1NzEyOTVdfQ==
 -->
