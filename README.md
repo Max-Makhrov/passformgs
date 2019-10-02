@@ -70,7 +70,7 @@ Copy this code for tests:
     }
 
     
-    // use passsword to connect your app
+    // use password to connect your app
     function connectToAppWithPassNoKey()
     {
       var pass = PassForm.getPassword({showForm: true});  
