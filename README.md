@@ -9,7 +9,7 @@ Project key:
 ## Use
 
 The code saves password in user properties. Only user has an access.
-The code shows `Browser.msgBox` and mostlry used for developing user interfaces. Please see screenshots [here](https://sheetswithmaxmakhrov.wordpress.com/2019/10/02/sample-password-form-google-script/).
+The code shows `Browser.msgBox` and mostly used for developing user interfaces. Please see screenshots [here](https://sheetswithmaxmakhrov.wordpress.com/2019/10/02/sample-password-form-google-script/).
 
 
 ### One password per user
