@@ -11,6 +11,64 @@ Project key:
 
 Copy this code for tests:
 
+    // save or change password
+    function changePassWordNoKey()
+    {
+      var pass = PassForm.changePassword();
+      
+      if (pass === -1) { 
+        // 'user cancelled operation'
+        return -1;
+      }
+      else if (pass === -2)
+      {
+       // 'wrong forma'
+        return -2;
+      }
+      // success
+      return 0;  
+    }
+    
+    
+    // delete password
+    function deletePassNoKey()
+    {
+      PassForm.deletePassword();  
+    }
+    
+    
+    // show password on screen
+    function showPassNoKey()
+    {
+      PassForm.showPassword();  
+    }
+
+    
+    // use passsword to connect your app
+    function connectToAppWithPassNoKey()
+    {
+      var pass = PassForm.getPassword({showForm: true});  
+      if (pass === -1) { 
+        // 'user cancelled operation'
+        return -1;
+      }
+      else if (pass === -2)
+      {
+       // 'wrong forma'
+        return -2;
+      }  
+      else if (pass == null)
+      {
+        // 'pass was not defined'  
+        return -3;
+      }
+      var username_password = pass.split(':');  
+      var username = username_password[0];
+      var password = username_password[1];   
+      // connect to yuor app with pass 
+      Browser.msgBox('Success!');
+      return 0;   
+    }
 
 
 
@@ -63,5 +121,5 @@ Use options. Samle options:
         
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTcwOTE5ODcsMTQ2MzU3MTI5NV19
+eyJoaXN0b3J5IjpbLTE0ODIyMDIyOTgsMTQ2MzU3MTI5NV19
 -->
