@@ -12,7 +12,6 @@ The code saves password in user properties. Only user has an access.
 The code shows `Browser.msgBox` and mostry used for developing user interfaces.
 
 
-
 ### One password per user
 
 Use from `onOpen` menu. Sample menu code:
@@ -150,5 +149,6 @@ Use options. Samle options:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI1NjQ0NjU0LDE0NjM1NzEyOTVdfQ==
+eyJoaXN0b3J5IjpbLTY0NjM3MTMwMCw3MjU2NDQ2NTQsMTQ2Mz
+U3MTI5NV19
 -->
