@@ -7,18 +7,25 @@ Project key:
 `Mn_TkqLP19vqytbDY5sihkfUeoPss5KEk`
 
 ## Use
+### One password per user
 
 
-For multiple passwords in single project:
-// set key
-function setPasswordWithKey()
-{
-  var nopass = PassForm.getPassword({key: 'Godfather'}, false);
-  Logger.log(nopass);  // null
-  PassForm.setPassword({value: 'Mike:Carleone', key: 'Godfather'});  
-  var pass = PassForm.getPassword({key: 'Godfather'}, false);  
-  Logger.log(pass); // Mike:Carleone  
-}
+### More than one password per user
+
+For multiple passwords in single project.
+
+Save or ch
+
+    // set key
+    function setPasswordWithKey()
+    {
+      var nopass = PassForm.getPassword({key: 'Godfather'}, false);
+      Logger.log(nopass);  // null
+      PassForm.setPassword({value: 'Mike:Carleone', key: 'Godfather'});  
+      var pass = PassForm.getPassword({key: 'Godfather'}, false);  
+      Logger.log(pass); // Mike:Carleone  
+    }
+
 
 ## Advanced
 Use options. Samle options:
@@ -46,5 +53,5 @@ Use options. Samle options:
         
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyMjI3MTY0MV19
+eyJoaXN0b3J5IjpbLTQ5MzE1NDg3OF19
 -->
