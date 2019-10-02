@@ -8,6 +8,9 @@ Project key:
 
 ## Use
 
+The code saves password in user properties. Only user has an access.
+The code shows `Browser.msgBox` and mos
+
 ### One password per user
 
 Use from `onOpen` menu. Sample menu code:
@@ -145,5 +148,5 @@ Use options. Samle options:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4Nzc1Njg0NSwxNDYzNTcxMjk1XX0=
+eyJoaXN0b3J5IjpbLTE2MTMzMTU0NywxNDYzNTcxMjk1XX0=
 -->
